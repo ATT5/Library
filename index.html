@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="op">
+      <header>
+        <div class="img">
+          <img src="book.svg" alt="books" />
+        </div>
+        <h2>library</h2>
+      </header>
+      <div class="container">
+        <button class="add-book">+add book</button>
+      </div>
+
+      <div class="cards"></div>
+    </div>
+
+    <div class="form active">
+      <form action="book-form">
+        <h3>Title</h3>
+        <input type="text" class="info b-titile" />
+        <h3>Author</h3>
+        <input type="text" class="info b-author" /><br />
+        <p>Readed <input type="checkbox" class="readed" /></p>
+        <button class="add">Add</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+<!-- <div class="book-card">
+  <label for="title"
+    ><p>Title</p>
+    <p class="title"></p>
+  </label>
+  <label for="author"
+    ><p>Author</p>
+    <p class="author"></p>
+  </label>
+  <button class="btn readed" onclick="allReadyReaded(this)">readed</button>
+  <button class="btn delete">Delete</button>
+</div>
+ -->
